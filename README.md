@@ -31,7 +31,7 @@ A simple console application for managing a phone book. Users can add, remove, s
         2. chcp 65001 (sets the console encoding to UTF-8, ensuring correct display of Cyrillic characters.)
         3. cd /d "Путь к phonebook.exe"
         4. phonebook.exe 
-      Linux/MacOS:
+    5. Linux/MacOS:
         1. open terminal/console
         2. ./phonebook
 ### Features:
