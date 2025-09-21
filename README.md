@@ -27,13 +27,13 @@ A simple console application for managing a phone book. Users can add, remove, s
    3. Compile the program:
       **gcc -o phonebook phonebook.c** (**gcc -o phonebook.exe phonebook.c**(For surely start))
    4. Windows:
-        1. open cmd.exe
-        2. chcp 65001 (sets the console encoding to UTF-8, ensuring correct display of Cyrillic characters.)
-        3. cd /d "Путь к phonebook.exe"
-        4. phonebook.exe 
+      1. open cmd.exe
+      2. chcp 65001 (sets the console encoding to UTF-8, ensuring correct display of Cyrillic characters.)
+      3. cd /d "Путь к phonebook.exe"
+      4. phonebook.exe 
     5. Linux/MacOS:
-        1. open terminal/console
-        2. ./phonebook
+      1. open terminal/console
+      2. ./phonebook
 ### Features:
    1. Add Contact: Enter first name, last name, phone, and email. The program checks for duplicate phone numbers.
    2. Remove Contact: Search by name or phone number, with confirmation before deletion.
