@@ -33,49 +33,12 @@ A simple console application for managing a phone book. Users can add, remove, s
       Linux/MacOS:
         1. open terminal/console
         2. ./phonebook
-### Usage:
-   1. The program provides a text-based menu:
-      === Телефонная книга ===
-      1 — Добавить контакт
-      2 — Удалить контакт
-      3 — Найти контакт
-      4 — Просмотреть все контакты
-      5 — Сохранить контакты
-      6 — Загрузить контакты
-      0 — Выход
-      ========================
 ### Features:
    1. Add Contact: Enter first name, last name, phone, and email. The program checks for duplicate phone numbers.
    2. Remove Contact: Search by name or phone number, with confirmation before deletion.
    3. Search Contact: Find by first name, last name, or part of the phone number.
    4. View All Contacts: Displays all contacts. Offers optional sorting by first or last name.
    5. Save/Load: Contacts are saved to contacts.txt and loaded from it on startup. The file is created automatically on first save.
-### Example Session:
-   === Телефонная книга ===
-   1 — Добавить контакт
-   2 — Удалить контакт
-   3 — Найти контакт
-   4 — Просмотреть все контакты
-   5 — Сохранить контакты
-   6 — Загрузить контакты
-   0 — Выход
-   ========================
-   Введите номер действия: 1
-   Введите имя: Иван
-   Введите фамилию: Иванов
-   Введите номер телефона: 123-456-7890
-   Введите email: ivan@example.com
-   Контакт успешно добавлен!
-   
-   Введите номер действия: 4
-   Отсортировать по: 1 - Имени, 2 - Фамилии, 0 - Без сортировки: 0
-   
-   --- Все контакты ---
-   1. Иван Иванов | Телефон: 123-456-7890 | Email: ivan@example.com
-   --------------------
-   
-   Введите номер действия: 5
-   Контакты успешно сохранены в файл 'contacts.txt'.
 ### File Structure:
    1. phonebook.c: Source code.
    2. contacts.txt: Data file (created automatically by the program).
