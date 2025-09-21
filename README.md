@@ -42,4 +42,3 @@ A simple console application for managing a phone book. Users can add, remove, s
 ### File Structure:
    1. phonebook.c: Source code.
    2. contacts.txt: Data file (created automatically by the program).
-   3. .gitignore: Excludes executable files from the repository.
