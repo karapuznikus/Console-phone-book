@@ -20,6 +20,7 @@ A simple console application for managing a phone book. Users can add, remove, s
    sudo apt update && sudo apt install gcc
 ### On MacOS:
    Install Xcode Command Line Tools:
+      xcode-select --install
 ### How to Run:
    1. Clone or download this repository.
    2. Open a terminal in the project directory.
