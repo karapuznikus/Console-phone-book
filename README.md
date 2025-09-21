@@ -39,7 +39,7 @@ A simple console application for managing a phone book. Users can add, remove, s
    2. Remove Contact: Search by name or phone number, with confirmation before deletion.
    3. Search Contact: Find by first name, last name, or part of the phone number.
    4. View All Contacts: Displays all contacts. Offers optional sorting by first or last name.
-   5. Save/Load: Contacts are saved to contacts.txt and loaded from it on startup. The file is created automatically on first save.
+   5. Save/Load: Contacts are saved to `contacts.txt` and loaded from it on startup. The file is created automatically on first save.
 ### File Structure:
    1. phonebook.c: Source code.
    2. contacts.txt: Data file (created automatically by the program).
