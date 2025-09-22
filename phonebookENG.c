@@ -79,13 +79,13 @@ int main() {
 
 void show_menu() {
     printf("\n=== Phone Book ===\n");
-    printf("1 — Add a contact\n");
-    printf("2 — Delete a contact\n");
-    printf("3 — Find a contact\n");
-    printf("4 — View all contacts\n");
-    printf("5 — Save Contacts\n");
-    printf("6 — Upload Contacts\n");
-    printf("0 — Exit\n");
+    printf("1 - Add a contact\n");
+    printf("2 - Delete a contact\n");
+    printf("3 - Find a contact\n");
+    printf("4 - View all contacts\n");
+    printf("5 - Save Contacts\n");
+    printf("6 - Upload Contacts\n");
+    printf("0 - Exit\n");
     printf("========================\n");
 }
 
@@ -189,7 +189,7 @@ void search_contact() {
         if (strstr(contacts[i].firstName, query) != NULL ||
             strstr(contacts[i].lastName, query) != NULL ||
             strstr(contacts[i].phone, query) != NULL) {
-            printf("%d. %s %s | Телефон: %s | Email: %s\n",
+            printf("%d. %s %s | Telephone: %s | Email: %s\n",
                    i + 1,
                    contacts[i].firstName,
                    contacts[i].lastName,
